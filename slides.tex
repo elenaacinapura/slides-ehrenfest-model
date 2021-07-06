@@ -27,6 +27,7 @@
 \usetikzlibrary{shadows.blur}
 \usetikzlibrary{shapes}
 
+
 \definecolor{carminepink}{rgb}{0.92, 0.3, 0.26}
 \definecolor{candypink}{rgb}{0.89, 0.44, 0.48}
 
@@ -103,19 +104,23 @@
   \end{frame}
 
   \section{Markov chain analysis}
-  \begin{frame}{Markov chains - definition}
+  \begin{frame}{Markov chains - definitions}
     \begin{center}
-      \textbf{Discrete Markov chains}
+      \Large{\textbf{Discrete Markov chains}}
     \end{center}
     A mathematical theory for stochastic processes
+
+    The state of the system $X$ is a random variable
+
+    \bigskip
     \begin{figure}
       \input{pictures/statespace}
     \end{figure}
   \end{frame}
 
-  \begin{frame}{Markov chains - definition}
+  \begin{frame}{Markov chains - definitions}
     \begin{center}
-      \textbf{Markov property}
+      \Large{\textbf{Markov property}}
     \end{center}
     \begin{table}
       \begin{tabularx}{\textwidth}{c >{\raggedright}X}
@@ -124,6 +129,48 @@
     \end{table}
   \end{frame}
 
-  
+  \begin{frame}{Markov chains --- definitions}
+    \begin{center}
+      \Large \textbf{Distributions}
+    \end{center}
+    \begin{center}
+      $X = $ state of the system $=$ random variable
+    \end{center}
+
+    \renewcommand{\tabularxcolumn}{m}
+    \begin{table}
+      \begin{tabularx}{0.9\textwidth}{c c >{\raggedright}X}
+        Distribution & $\rightarrow$ & probabilities for the system to be in the various possible states
+      \end{tabularx}
+
+      \bigskip
+      Analogy with the probability distribution in statistics
+    \end{table}
+    
+  \end{frame}
+
+  \begin{frame}{Markov chains and the Ehrenfest model}
+    \Large In the Ehrenfest model:
+    \normalsize
+    \begin{itemize}
+      \item state = number of particles in box A
+      \item possible values: $0, \dots, N$
+      \item example
+    \end{itemize}
+
+    \begin{figure}[r]
+      \input{pictures/example_state}
+    \end{figure}
+  \end{frame}
+
+  \begin{frame}[standout]
+    \textsc{A sequence of states of the Ehrenfest model is a Markov chain}
+  \end{frame}
+
+
+  \section{Asymptotic behaviour}
+  \begin{frame}{LIMITING DISTRIBUTION}
+    
+  \end{frame}
 
 \end{document}

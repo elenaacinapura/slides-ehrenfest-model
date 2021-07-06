@@ -14,64 +14,22 @@
 
   \end{frame}
 
-  \begin{frame}{The Ehrenfest Urn Model} %select particle
+  \begin{frame}{The Ehrenfest Urn Model}
     At each time step:
     \begin{itemize}
-      \item \alert{a ball is selected at random among the $N$ possible ones}
+      \item<1-> \alert<1>{a ball is selected at random among the $N$ possible ones}
+      \item<2-> \alert<2>{it is extracted from its box}
+      \item<3-> \alert<3>{a box is selected at random}
+      \item<4-> \alert<4>{the particle is put in the selected box}
     \end{itemize}
 
     \medskip
-    \begin{figure}[b]
-      \begin{center}
-        \input{pictures/picked_ball}
-      \end{center}
-    \end{figure}
-  \end{frame}
-
-  \begin{frame}{The Ehrenfest Urn Model} %extract particle
-    At each time step:
-    \begin{itemize}
-      \item a ball is selected at random among the $N$ possible ones
-      \item \alert{it is extracted from its box}
-    \end{itemize}
-
-    \medskip
-    \begin{figure}[b]
-      \begin{center}
-        \input{pictures/extracted_ball}
-      \end{center}
-    \end{figure}
-  \end{frame}
-
-  \begin{frame}{The Ehrenfest Urn Model} % select box
-    At each time step:
-    \begin{itemize}
-      \item a ball is selected at random among the $N$ possible ones
-      \item it is extracted from its box
-      \item \alert{a box is selected at random}
-    \end{itemize}
-
-    \medskip
-    \begin{figure}[b]
-      \begin{center}
-        \input{pictures/box_selected}
-      \end{center}
-    \end{figure}
-  \end{frame}
-
-  \begin{frame}{The Ehrenfest Urn Model} % put
-    At each time step:
-    \begin{itemize}
-      \item a ball is selected at random among the $N$ possible ones
-      \item it is extracted from its box
-      \item a box is selected at random
-      \item \alert{the particle is put in the selected box}
-    \end{itemize}
-
-    \medskip
-    \begin{figure}[b]
-      \begin{center}
-        \input{pictures/put}
-      \end{center}
-    \end{figure}
+        \begin{figure}[b]
+        \begin{center}
+            \only<1>{\input{pictures/picked_ball}}
+            \only<2>{\input{pictures/extracted_ball}}
+            \only<3>{\input{pictures/box_selected}}
+            \only<4>{\input{pictures/put}}
+        \end{center}
+        \end{figure}
   \end{frame}
