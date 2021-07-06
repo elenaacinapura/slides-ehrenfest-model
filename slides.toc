@@ -1,2 +1,4 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
+\beamer@sectionintoc {1}{Motivation}{2}{0}{1}
+\beamer@sectionintoc {2}{The Ehrenfest Urn Model}{5}{0}{2}
+\beamer@sectionintoc {3}{Markov chain analysis}{12}{0}{3}

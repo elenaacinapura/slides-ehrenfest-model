@@ -1,73 +1,129 @@
-% Copyright 2020 by Junwei Wang <i.junwei.wang@gmail.com>
-%
-% This file may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License, either version 1.3c
-% of this license or (at your option) any later version.
-% The latest version of this license is in
-%   http://www.latex-project.org/lppl.txt
-
-\documentclass[compress]{beamer}
+\documentclass[usenames,dvipsnames]{beamer}
 \usepackage[utf8]{inputenc}
-
 \usepackage[english]{babel}
-\usepackage{metalogo}
-\usepackage{listings}
-\usepackage{fontspec}
+\usepackage{graphicx}
 \usepackage{tikz}
-\usetikzlibrary{arrows, petri, topaths}
-\usepackage{tkz-berge}
-\usepackage{caption}
-\usepackage{subcaption}
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{amssymb}
 \usepackage{mathtools}
-\usepackage{siunitx}
-
-\usepackage{biblatex}
 \usepackage{csquotes}
-\addbibresource{bibliography.bib}
+\usepackage{tabularx,pbox}
+% tikz packages
+\usetikzlibrary{positioning}
+\usepackage{physics}
+\usepackage{yhmath}
+\usepackage{cancel}
+\usepackage{color}
+\usepackage{siunitx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{gensymb}
+\usepackage{tabularx}
+\usepackage{extarrows}
+\usepackage{booktabs}
+\usetikzlibrary{fadings}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{shapes}
 
+\definecolor{carminepink}{rgb}{0.92, 0.3, 0.26}
+\definecolor{candypink}{rgb}{0.89, 0.44, 0.48}
 
-\usetheme{Nord}
-\setbeamercolor{}{fg=NordRed, bg= NordOrange}
-% Fonts
-\setmainfont{Fira Sans Medium}
-\setsansfont{Fira Sans}
-\setmonofont{DejaVu Sans Mono}
+% theme
+\usetheme[numbering=counter, progressbar=foot, titleformat=allcaps]{metropolis}  
+\setbeamercolor{title separator}{fg=BrickRed}
+\setbeamercolor{progress bar in head/foot}{fg=BrickRed}
+\setbeamercolor{alerted text}{fg=BrickRed}
 
-\AtBeginSection[]
-{
-  \begin{frame}[c,noframenumbering,plain]
-    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/show/hide]
-  \end{frame}
-}
-%
-%\AtBeginSubsection[]
-%{
-%  \begin{frame}[c,noframenumbering,plain]
-%    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide]
-%  \end{frame}
-%}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
 
-\title{Markov Chain Analysis of\\ The Ehrenfest Model}
-\subtitle{Final Dissertation}
+\title{Markov Chain Analysis of \\The Ehrenfest Urn Model}
+\date{2020/2021}
 \author{Elena Acinapura}
-% \institute{Università di Trento}
-%\date{\today}
+\institute{Università di Trento}
 
 \begin{document}
-
-\begin{frame}[plain,noframenumbering]
   \maketitle
-\end{frame}
+  \section{Motivation}
+  \begin{frame}{Irreversibility vs Recurrence}
+    Some thermodynamic processes, such as 
 
-\begin{frame}[plain,noframenumbering]
-  \tableofcontents
-\end{frame}
+    \begin{table}
+        \begin{center}
+        \begin{tabular}{l c}
+            \tabitem diffusions & \\
+            \tabitem heat transfers & $\rightarrow \quad $ \alert{irreversible}\\
+            \tabitem phase transitions & 
+        \end{tabular}
+        \end{center}
+    \end{table}
+    
+    \begin{center}
+        \textbf{but}
+    \end{center}
+    
+    \begin{center}
+    Newtonian mechanics $\quad \rightarrow \quad$ \alert{time-reversible}
+    \end{center}
+  \end{frame}
 
-\begin{frame}
+  \begin{frame}{Contents}
+    \textbf{The Ehrenfest urn model}
+
+    \medskip
+    \textbf{Analysis via Markov chains}
+      \begin{itemize}
+        \item limiting distribution
+        \item mean recurrence time
+      \end{itemize}
+      \medskip
+    \textbf{Simulation}
+  \end{frame}
+
+  \section{The Ehrenfest Urn Model}
+  \input{mechanism}
+
+  \begin{frame}{The Ehrenfest Urn Model}
+    \begin{center}
+      \textbf{Meaningful questions about equilibrium}
+    \end{center}
+    \begin{itemize}
+      \item probability of having all the particles in box A?
+    \end{itemize}
+    \begin{figure}
+      \input{pictures/all_A}
+    \end{figure}
+    \begin{itemize}
+      \item time needed for recurrence?
+    \end{itemize}
+    \begin{figure}
+      \input{pictures/recurrence}
+    \end{figure}
+  \end{frame}
+
+  \section{Markov chain analysis}
+  \begin{frame}{Markov chains - definition}
+    \begin{center}
+      \textbf{Discrete Markov chains}
+    \end{center}
+    A mathematical theory for stochastic processes
+    \begin{figure}
+      \input{pictures/statespace}
+    \end{figure}
+  \end{frame}
+
+  \begin{frame}{Markov chains - definition}
+    \begin{center}
+      \textbf{Markov property}
+    \end{center}
+    \begin{table}
+      \begin{tabularx}{\textwidth}{c >{\raggedright}X}
+        \alert{\emph{Memorylessness}}: & only the current state influences the next transition \tabularnewline
+      \end{tabularx}
+    \end{table}
+  \end{frame}
+
   
-\end{frame}
 
 \end{document}

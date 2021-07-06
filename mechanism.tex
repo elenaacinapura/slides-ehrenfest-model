@@ -1,0 +1,77 @@
+\begin{frame}{The Ehrenfest Urn Model} %intro
+    Diffusion of a gas as \alert{stochastic process}
+    \begin{itemize}
+      \item $N$ particles
+      \item 2 boxes
+      \item discretized time steps
+    \end{itemize}
+   
+    \begin{figure}
+      \begin{center}
+        \input{pictures/ehrenfest_1}
+      \end{center}
+    \end{figure}
+
+  \end{frame}
+
+  \begin{frame}{The Ehrenfest Urn Model} %select particle
+    At each time step:
+    \begin{itemize}
+      \item \alert{a ball is selected at random among the $N$ possible ones}
+    \end{itemize}
+
+    \medskip
+    \begin{figure}[b]
+      \begin{center}
+        \input{pictures/picked_ball}
+      \end{center}
+    \end{figure}
+  \end{frame}
+
+  \begin{frame}{The Ehrenfest Urn Model} %extract particle
+    At each time step:
+    \begin{itemize}
+      \item a ball is selected at random among the $N$ possible ones
+      \item \alert{it is extracted from its box}
+    \end{itemize}
+
+    \medskip
+    \begin{figure}[b]
+      \begin{center}
+        \input{pictures/extracted_ball}
+      \end{center}
+    \end{figure}
+  \end{frame}
+
+  \begin{frame}{The Ehrenfest Urn Model} % select box
+    At each time step:
+    \begin{itemize}
+      \item a ball is selected at random among the $N$ possible ones
+      \item it is extracted from its box
+      \item \alert{a box is selected at random}
+    \end{itemize}
+
+    \medskip
+    \begin{figure}[b]
+      \begin{center}
+        \input{pictures/box_selected}
+      \end{center}
+    \end{figure}
+  \end{frame}
+
+  \begin{frame}{The Ehrenfest Urn Model} % put
+    At each time step:
+    \begin{itemize}
+      \item a ball is selected at random among the $N$ possible ones
+      \item it is extracted from its box
+      \item a box is selected at random
+      \item \alert{the particle is put in the selected box}
+    \end{itemize}
+
+    \medskip
+    \begin{figure}[b]
+      \begin{center}
+        \input{pictures/put}
+      \end{center}
+    \end{figure}
+  \end{frame}

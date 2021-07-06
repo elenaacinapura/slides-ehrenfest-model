@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.7.4)  5 JUL 2021 09:51
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.7.4)  6 JUL 2021 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -179,7 +179,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen172
@@ -537,202 +539,71 @@ Package babel Info: \l@australian = using hyphenrules for ukenglish
 (babel)             (\language8) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 (babel)             (\language8) on input line 108.
-)) (/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
-Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
- (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-02-14 L3 programming layer (loader) 
- (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
-File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count311
-\l__pdf_internal_box=\box74
-\g__pdf_backend_object_int=\count312
-\g__pdf_backend_annotation_int=\count313
-))
-Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count314
-\g__xparse_grabber_int=\count315
-\l__xparse_m_args_int=\count316
-\l__xparse_v_nesting_int=\count317
-)
-Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
- (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count318
-\l__fontspec_language_int=\count319
-\l__fontspec_strnum_int=\count320
-\l__fontspec_tmp_int=\count321
-\l__fontspec_tmpa_int=\count322
-\l__fontspec_tmpb_int=\count323
-\l__fontspec_tmpc_int=\count324
-\l__fontspec_em_int=\count325
-\l__fontspec_emdef_int=\count326
-\l__fontspec_strong_int=\count327
-\l__fontspec_strongdef_int=\count328
-\l__fontspec_tmpa_dim=\dimen278
-\l__fontspec_tmpb_dim=\dimen279
-\l__fontspec_tmpc_dim=\dimen280
- (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-\xl@everylogo=\toks45
-\xl@@everylogo=\toks46
-LaTeX Info: Redefining \TeX on input line 193.
-LaTeX Info: Redefining \LaTeX on input line 202.
-LaTeX Info: Redefining \LaTeXe on input line 219.
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count329
-\lst@gtempboxa=\box75
-\lst@token=\toks47
-\lst@length=\count330
-\lst@currlwidth=\dimen281
-\lst@column=\count331
-\lst@pos=\count332
-\lst@lostspace=\dimen282
-\lst@width=\dimen283
-\lst@newlines=\count333
-\lst@lineno=\count334
-\lst@maxwidth=\dimen284
- (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count335
-\lst@skipnumbers=\count336
-\lst@framebox=\box76
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2019/09/10 1.8c listings configuration
-))
-Package: listings 2019/09/10 1.8c (Carsten Heinz)
- (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box77
+\pgfnodeparttextbox=\box74
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen285
-\pgf@nodesepend=\dimen286
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen287
-\pgffor@skip=\dimen288
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count337
-\pgfplotmarksize=\dimen289
+\pgf@plot@mark@count=\count311
+\pgfplotmarksize=\dimen282
 )
-\tikz@lastx=\dimen290
-\tikz@lasty=\dimen291
-\tikz@lastxsaved=\dimen292
-\tikz@lastysaved=\dimen293
-\tikz@lastmovetox=\dimen294
-\tikz@lastmovetoy=\dimen295
-\tikzleveldistance=\dimen296
-\tikzsiblingdistance=\dimen297
-\tikz@figbox=\box78
-\tikz@figbox@bg=\box79
-\tikz@tempbox=\box80
-\tikz@tempbox@bg=\box81
-\tikztreelevel=\count338
-\tikznumberofchildren=\count339
-\tikznumberofcurrentchild=\count340
-\tikz@fig@count=\count341
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
+\tikz@figbox=\box75
+\tikz@figbox@bg=\box76
+\tikz@tempbox=\box77
+\tikz@tempbox@bg=\box78
+\tikztreelevel=\count312
+\tikznumberofchildren=\count313
+\tikznumberofcurrentchild=\count314
+\tikz@fig@count=\count315
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count342
-\pgfmatrixcurrentcolumn=\count343
-\pgf@matrix@numberofcolumns=\count344
+\pgfmatrixcurrentrow=\count316
+\pgfmatrixcurrentcolumn=\count317
+\pgf@matrix@numberofcolumns=\count318
 )
-\tikz@expandcount=\count345
+\tikz@expandcount=\count319
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen298
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypetri.code.tex
-File: tikzlibrarypetri.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty
-Package: tkz-berge 2011/06/01 1.00 c tkz-berge for named graphs
- (/usr/share/texlive/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
-Package: tkz-graph 2018/09/19 ctan v 1.00 d base for graphs
- (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
- (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks50
-\XKV@tempa@toks=\toks51
-)
-\XKV@depth=\count346
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-\c@tkz@gr@a=\count347
-\c@tkz@gr@b=\count348
-\c@tkz@gr@c=\count349
-\c@tkz@gr@e=\count350
-\c@tkz@gr@d=\count351
-\c@tkz@gr@p=\count352
-\c@tkz@gr@i=\count353
-\c@tkz@gr@n=\count354
-\c@tkz@gr@ta=\count355
-\c@tkz@gr@tb=\count356
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-berge/tkz-arith.sty
-Package: tkz-arith 2011/02/28 v 1.00 c integers numbers
- (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-arith.tex
-2020/01/24 3.02c tkz-tools-arith.tex
-File: tkz-tool-arith.tex tkz-tool-arith 3.02 c
-))
-\c@tkz@bg@cnt=\count357
-\c@tkza@tmp=\count358
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
- (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen299
-\captionmargin@=\dimen300
-\captionwidth=\dimen301
-\caption@tempdima=\dimen302
-\caption@indent=\dimen303
-\caption@parindent=\dimen304
-\caption@hangindent=\dimen305
-Package caption Info: beamer document class detected.
-)
-\c@caption@flags=\count359
-\c@continuedfloat=\count360
-Package caption Info: beamer document class.
-Package caption Info: hyperref package is loaded.
-Package caption Info: Hyperref support is turned off
-(caption)             because hyperref has stopped early.
-Package caption Info: listings package is loaded.
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
-\c@subfigure=\count361
-\c@subtable=\count362
-) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
  (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count363
-\calc@Bcount=\count364
-\calc@Adimen=\dimen306
-\calc@Bdimen=\dimen307
+\calc@Acount=\count320
+\calc@Bcount=\count321
+\calc@Adimen=\dimen291
+\calc@Bdimen=\dimen292
 \calc@Askip=\skip63
 \calc@Bskip=\skip64
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count365
+\calc@Ccount=\count322
 \calc@Cskip=\skip65
 ) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
@@ -741,287 +612,24 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count366
-\l_MT_multwidth_dim=\dimen308
+\g_MT_multlinerow_int=\count323
+\l_MT_multwidth_dim=\dimen293
 \origjot=\skip66
-\l_MT_shortvdotswithinadjustabove_dim=\dimen309
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen310
-\l_MT_above_intertext_sep=\dimen311
-\l_MT_below_intertext_sep=\dimen312
-\l_MT_above_shortintertext_sep=\dimen313
-\l_MT_below_shortintertext_sep=\dimen314
-) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
- (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen315
-\ar@mcellbox=\box82
-\extrarowheight=\dimen316
-\NC@list=\toks52
-\extratabsurround=\skip67
-\backup@length=\skip68
-\ar@cellbox=\box83
-) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
-)
-\l__siunitx_tmp_box=\box84
-\l__siunitx_tmp_dim=\dimen317
-\l__siunitx_tmp_int=\count367
-\l__siunitx_number_mantissa_length_int=\count368
-\l__siunitx_number_uncert_length_int=\count369
-\l__siunitx_round_int=\count370
-\l__siunitx_process_decimal_int=\count371
-\l__siunitx_process_uncertainty_int=\count372
-\l__siunitx_process_fixed_int=\count373
-\l__siunitx_process_integer_min_int=\count374
-\l__siunitx_process_precision_int=\count375
-\l__siunitx_group_min_int=\count376
-\l__siunitx_angle_marker_box=\box85
-\l__siunitx_angle_unit_box=\box86
-\l__siunitx_angle_marker_dim=\dimen318
-\l__siunitx_angle_unit_dim=\dimen319
-\l__siunitx_unit_int=\count377
-\l__siunitx_unit_denominator_int=\count378
-\l__siunitx_unit_numerator_int=\count379
-\l__siunitx_unit_prefix_int=\count380
-\l__siunitx_unit_prefix_base_int=\count381
-\l__siunitx_unit_prefix_gram_int=\count382
-\l__siunitx_number_product_int=\count383
-\c__siunitx_one_fill_skip=\skip69
-\l__siunitx_table_unit_align_skip=\skip70
-\l__siunitx_table_exponent_dim=\dimen320
-\l__siunitx_table_integer_dim=\dimen321
-\l__siunitx_table_mantissa_dim=\dimen322
-\l__siunitx_table_marker_dim=\dimen323
-\l__siunitx_table_result_dim=\dimen324
-\l__siunitx_table_uncert_dim=\dimen325
-\l__siunitx_table_fill_pre_dim=\dimen326
-\l__siunitx_table_fill_post_dim=\dimen327
-\l__siunitx_table_fill_mid_dim=\dimen328
-\l__siunitx_table_pre_box=\box87
-\l__siunitx_table_post_box=\box88
-\l__siunitx_table_mantissa_box=\box89
-\l__siunitx_table_result_box=\box90
-\l__siunitx_table_number_align_skip=\skip71
-\l__siunitx_table_text_align_skip=\skip72
-) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
- (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count384
- (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count385
-\c@listtotal=\count386
-\c@listcount=\count387
-\c@liststart=\count388
-\c@liststop=\count389
-\c@citecount=\count390
-\c@citetotal=\count391
-\c@multicitecount=\count392
-\c@multicitetotal=\count393
-\c@instcount=\count394
-\c@maxnames=\count395
-\c@minnames=\count396
-\c@maxitems=\count397
-\c@minitems=\count398
-\c@citecounter=\count399
-\c@maxcitecounter=\count400
-\c@savedcitecounter=\count401
-\c@uniquelist=\count402
-\c@uniquename=\count403
-\c@refsection=\count404
-\c@refsegment=\count405
-\c@maxextratitle=\count406
-\c@maxextratitleyear=\count407
-\c@maxextraname=\count408
-\c@maxextradate=\count409
-\c@maxextraalpha=\count410
-\c@abbrvpenalty=\count411
-\c@highnamepenalty=\count412
-\c@lownamepenalty=\count413
-\c@maxparens=\count414
-\c@parenlevel=\count415
-\blx@tempcnta=\count416
-\blx@tempcntb=\count417
-\blx@tempcntc=\count418
-\blx@maxsection=\count419
-\blx@maxsegment@0=\count420
-\blx@notetype=\count421
-\blx@parenlevel@text=\count422
-\blx@parenlevel@foot=\count423
-\blx@sectionciteorder@0=\count424
-\blx@entrysetcounter=\count425
-\labelnumberwidth=\skip73
-\labelalphawidth=\skip74
-\biblabelsep=\skip75
-\bibitemsep=\skip76
-\bibnamesep=\skip77
-\bibinitsep=\skip78
-\bibparsep=\skip79
-\bibhang=\skip80
-\blx@bcfin=\read4
-\blx@bcfout=\write5
-\blx@langwohyphens=\language10
-\c@mincomprange=\count426
-\c@maxcomprange=\count427
-\c@mincompwidth=\count428
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count429
-\c@savedafterword=\count430
-\c@annotator=\count431
-\c@savedannotator=\count432
-\c@author=\count433
-\c@savedauthor=\count434
-\c@bookauthor=\count435
-\c@savedbookauthor=\count436
-\c@commentator=\count437
-\c@savedcommentator=\count438
-\c@editor=\count439
-\c@savededitor=\count440
-\c@editora=\count441
-\c@savededitora=\count442
-\c@editorb=\count443
-\c@savededitorb=\count444
-\c@editorc=\count445
-\c@savededitorc=\count446
-\c@foreword=\count447
-\c@savedforeword=\count448
-\c@holder=\count449
-\c@savedholder=\count450
-\c@introduction=\count451
-\c@savedintroduction=\count452
-\c@namea=\count453
-\c@savednamea=\count454
-\c@nameb=\count455
-\c@savednameb=\count456
-\c@namec=\count457
-\c@savednamec=\count458
-\c@translator=\count459
-\c@savedtranslator=\count460
-\c@shortauthor=\count461
-\c@savedshortauthor=\count462
-\c@shorteditor=\count463
-\c@savedshorteditor=\count464
-\c@labelname=\count465
-\c@savedlabelname=\count466
-\c@institution=\count467
-\c@savedinstitution=\count468
-\c@lista=\count469
-\c@savedlista=\count470
-\c@listb=\count471
-\c@savedlistb=\count472
-\c@listc=\count473
-\c@savedlistc=\count474
-\c@listd=\count475
-\c@savedlistd=\count476
-\c@liste=\count477
-\c@savedliste=\count478
-\c@listf=\count479
-\c@savedlistf=\count480
-\c@location=\count481
-\c@savedlocation=\count482
-\c@organization=\count483
-\c@savedorganization=\count484
-\c@origlocation=\count485
-\c@savedoriglocation=\count486
-\c@origpublisher=\count487
-\c@savedorigpublisher=\count488
-\c@publisher=\count489
-\c@savedpublisher=\count490
-\c@language=\count491
-\c@savedlanguage=\count492
-\c@origlanguage=\count493
-\c@savedoriglanguage=\count494
-\c@pageref=\count495
-\c@savedpageref=\count496
-\shorthandwidth=\skip81
-\shortjournalwidth=\skip82
-\shortserieswidth=\skip83
-\shorttitlewidth=\skip84
-\shortauthorwidth=\skip85
-\shorteditorwidth=\skip86
-\locallabelnumberwidth=\skip87
-\locallabelalphawidth=\skip88
-\localshorthandwidth=\skip89
-\localshortjournalwidth=\skip90
-\localshortserieswidth=\skip91
-\localshorttitlewidth=\skip92
-\localshortauthorwidth=\skip93
-\localshorteditorwidth=\skip94
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count497
-\c@textcitetotal=\count498
-\c@textcitemaxnames=\count499
-\c@biburlbigbreakpenalty=\count500
-\c@biburlbreakpenalty=\count501
-\c@biburlnumpenalty=\count502
-\c@biburlucpenalty=\count503
-\c@biburllcpenalty=\count504
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count505
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count506
-\c@bbx:relatedtotal=\count507
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+\l_MT_shortvdotswithinadjustabove_dim=\dimen294
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen295
+\l_MT_above_intertext_sep=\dimen296
+\l_MT_below_intertext_sep=\dimen297
+\l_MT_above_shortintertext_sep=\dimen298
+\l_MT_below_shortintertext_sep=\dimen299
+) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
-\csq@reset=\count508
-\csq@gtype=\count509
-\csq@glevel=\count510
-\csq@qlevel=\count511
-\csq@maxlvl=\count512
-\csq@tshold=\count513
-\csq@ltx@everypar=\toks53
+\csq@reset=\count324
+\csq@gtype=\count325
+\csq@glevel=\count326
+\csq@qlevel=\count327
+\csq@maxlvl=\count328
+\csq@tshold=\count329
+\csq@ltx@everypar=\toks47
  (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
 )
@@ -1029,134 +637,348 @@ Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
  (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-)) (/media/Dati/Git/slides-ehrenfest-model/beamerthemeNord.sty
-Package: beamerthemeNord 2020/07/03 v0.1.0 A simple beamer theme using Nord color scheme
- (/media/Dati/Git/slides-ehrenfest-model/beamercolorthemeNord.sty) (/media/Dati/Git/slides-ehrenfest-model/beamerfontthemeNord.sty))
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen300
+\ar@mcellbox=\box79
+\extrarowheight=\dimen301
+\NC@list=\toks48
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box80
+)
+\TX@col@width=\dimen302
+\TX@old@table=\dimen303
+\TX@old@col=\dimen304
+\TX@target=\dimen305
+\TX@delta=\dimen306
+\TX@cols=\count330
+\TX@ftn=\toks49
+) (/usr/share/texlive/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\pb@xlen=\skip69
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count331
+\l__pdf_internal_box=\box81
+\g__pdf_backend_object_int=\count332
+\g__pdf_backend_annotation_int=\count333
+))
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count334
+\g__xparse_grabber_int=\count335
+\l__xparse_m_args_int=\count336
+\l__xparse_v_nesting_int=\count337
+)) (/usr/share/texlive/texmf-dist/tex/latex/yhmath/yhmath.sty
+Package: yhmath 2019/02/24 v1.5
+\symyhlargesymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 29.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 51.
+LaTeX Font Info:    Redeclaring math delimiter \lmoustache on input line 53.
+LaTeX Font Info:    Redeclaring math delimiter \rmoustache on input line 55.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 57.
+LaTeX Font Info:    Redeclaring math delimiter \Arrowvert on input line 59.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 61.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 63.
+LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 65.
+LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 67.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 69.
+LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 71.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 73.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 75.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 79.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 81.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 83.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 85.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 87.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 89.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 91.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 93.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 95.
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 97.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 99.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 101.
+) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box82
+\l__siunitx_tmp_dim=\dimen307
+\l__siunitx_tmp_int=\count338
+\l__siunitx_number_mantissa_length_int=\count339
+\l__siunitx_number_uncert_length_int=\count340
+\l__siunitx_round_int=\count341
+\l__siunitx_process_decimal_int=\count342
+\l__siunitx_process_uncertainty_int=\count343
+\l__siunitx_process_fixed_int=\count344
+\l__siunitx_process_integer_min_int=\count345
+\l__siunitx_process_precision_int=\count346
+\l__siunitx_group_min_int=\count347
+\l__siunitx_angle_marker_box=\box83
+\l__siunitx_angle_unit_box=\box84
+\l__siunitx_angle_marker_dim=\dimen308
+\l__siunitx_angle_unit_dim=\dimen309
+\l__siunitx_unit_int=\count348
+\l__siunitx_unit_denominator_int=\count349
+\l__siunitx_unit_numerator_int=\count350
+\l__siunitx_unit_prefix_int=\count351
+\l__siunitx_unit_prefix_base_int=\count352
+\l__siunitx_unit_prefix_gram_int=\count353
+\l__siunitx_number_product_int=\count354
+\c__siunitx_one_fill_skip=\skip70
+\l__siunitx_table_unit_align_skip=\skip71
+\l__siunitx_table_exponent_dim=\dimen310
+\l__siunitx_table_integer_dim=\dimen311
+\l__siunitx_table_mantissa_dim=\dimen312
+\l__siunitx_table_marker_dim=\dimen313
+\l__siunitx_table_result_dim=\dimen314
+\l__siunitx_table_uncert_dim=\dimen315
+\l__siunitx_table_fill_pre_dim=\dimen316
+\l__siunitx_table_fill_post_dim=\dimen317
+\l__siunitx_table_fill_mid_dim=\dimen318
+\l__siunitx_table_pre_box=\box85
+\l__siunitx_table_post_box=\box86
+\l__siunitx_table_mantissa_box=\box87
+\l__siunitx_table_result_box=\box88
+\l__siunitx_table_number_align_skip=\skip72
+\l__siunitx_table_text_align_skip=\skip73
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip74
+\multirow@cntb=\count355
+\multirow@dima=\skip75
+\bigstrutjot=\dimen319
+) (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+) (/usr/share/texlive/texmf-dist/tex/latex/extarrows/extarrows.sty
+Package: extarrows 2008/05/15 v1.0b Some extensible arrows
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen320
+\lightrulewidth=\dimen321
+\cmidrulewidth=\dimen322
+\belowrulesep=\dimen323
+\belowbottomsep=\dimen324
+\aboverulesep=\dimen325
+\abovetopsep=\dimen326
+\cmidrulesep=\dimen327
+\cmidrulekern=\dimen328
+\defaultaddspace=\dimen329
+\@cmidla=\count356
+\@cmidlb=\count357
+\@aboverulesep=\dimen330
+\@belowrulesep=\dimen331
+\@thisruleclass=\count358
+\@lastruleclass=\count359
+\@thisrulewidth=\dimen332
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex  v1.02, 2012/12/09 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+\pgfbs@fading@count=\count360
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodepartlowerbox=\box89
+\pgfnodeparttwobox=\box90
+\pgfnodepartthreebox=\box91
+\pgfnodepartfourbox=\box92
+\pgfnodeparttwentybox=\box93
+\pgfnodepartnineteenbox=\box94
+\pgfnodeparteighteenbox=\box95
+\pgfnodepartseventeenbox=\box96
+\pgfnodepartsixteenbox=\box97
+\pgfnodepartfifteenbox=\box98
+\pgfnodepartfourteenbox=\box99
+\pgfnodepartthirteenbox=\box100
+\pgfnodeparttwelvebox=\box101
+\pgfnodepartelevenbox=\box102
+\pgfnodeparttenbox=\box103
+\pgfnodepartninebox=\box104
+\pgfnodeparteightbox=\box105
+\pgfnodepartsevenbox=\box106
+\pgfnodepartsixbox=\box107
+\pgfnodepartfivebox=\box108
+))) (/media/Dati/Git/slides-ehrenfest-model/beamerthememetropolis.sty
+Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
+ (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks50
+\pgfopts@list@add@b@toks=\toks51
+) (/media/Dati/Git/slides-ehrenfest-model/beamerinnerthememetropolis.sty
+Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
+\metropolis@titleseparator@linewidth=\skip76
+\metropolis@progressonsectionpage=\skip77
+\metropolis@progressonsectionpage@linewidth=\skip78
+\metropolis@blocksep=\skip79
+\metropolis@blockadjust=\skip80
+\metropolis@parskip=\skip81
+) (/media/Dati/Git/slides-ehrenfest-model/beamerouterthememetropolis.sty
+Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
+\metropolis@frametitle@padding=\skip82
+\metropolis@progressinheadfoot=\skip83
+\metropolis@progressinheadfoot@linewidth=\skip84
+) (/media/Dati/Git/slides-ehrenfest-model/beamercolorthememetropolis.sty
+Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
+) (/media/Dati/Git/slides-ehrenfest-model/beamerfontthememetropolis.sty
+Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count361
+\l__fontspec_language_int=\count362
+\l__fontspec_strnum_int=\count363
+\l__fontspec_tmp_int=\count364
+\l__fontspec_tmpa_int=\count365
+\l__fontspec_tmpb_int=\count366
+\l__fontspec_tmpc_int=\count367
+\l__fontspec_em_int=\count368
+\l__fontspec_emdef_int=\count369
+\l__fontspec_strong_int=\count370
+\l__fontspec_strongdef_int=\count371
+\l__fontspec_tmpa_dim=\dimen333
+\l__fontspec_tmpb_dim=\dimen334
+\l__fontspec_tmpc_dim=\dimen335
+ (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+\c@fontsnotfound=\count372
 
-Package fontspec Info: Font family 'FiraSansMedium(0)' created for font 'Fira
-(fontspec)             Sans Medium' with options [Ligatures=TeX].
+Package fontspec Info: Font family 'FiraSansLight(0)' created for font 'Fira
+(fontspec)             Sans Light' with options
+(fontspec)             [Ligatures=TeX,ItalicFont={Fira Sans Light
+(fontspec)             Italic},BoldFont={Fira Sans},BoldItalicFont={Fira Sans
+(fontspec)             Italic}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Fira Sans
-(fontspec)             Medium/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             Light/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Fira Sans
-(fontspec)             Medium/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Fira Sans
-(fontspec)             Medium/B/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Fira
-(fontspec)             Sans
-(fontspec)             Medium/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Fira Sans
-(fontspec)             Medium/I/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"Fira Sans
-(fontspec)             Medium/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Fira Sans
-(fontspec)             Medium/BI/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"Fira Sans
-(fontspec)             Medium/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-
-
-Package fontspec Info: Font family 'FiraSans(0)' created for font 'Fira Sans'
-(fontspec)             with options [Ligatures=TeX].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Fira
-(fontspec)             Sans/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Fira
-(fontspec)             Sans/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             Light/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Fira
-(fontspec)             Sans/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             Sans/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Fira
-(fontspec)             Sans/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Fira
-(fontspec)             Sans/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             Sans/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Fira Sans Light
+(fontspec)             Italic/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"Fira
-(fontspec)             Sans/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Fira
-(fontspec)             Sans/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"Fira Sans Light
+(fontspec)             Italic/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Fira Sans
+(fontspec)             Italic/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"Fira
-(fontspec)             Sans/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->"Fira Sans
+(fontspec)             Italic/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
 
-Package fontspec Info: Font family 'DejaVuSansMono(0)' created for font
-(fontspec)             'DejaVu Sans Mono' with options
-(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"DejaVu Sans
-(fontspec)             Mono/OT:script=latn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"DejaVu Sans
-(fontspec)             Mono/B/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"DejaVu Sans
-(fontspec)             Mono/I/OT:script=latn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"DejaVu Sans
-(fontspec)             Mono/BI/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+Package beamerthememetropolis Warning: Could not find Fira Mono fonts on input line 95.
+
+)
+
+Package beamerthememetropolis Warning: Be aware that titleformat title=allcaps can lead to problems on input line 104.
+
+
+Package beamerthememetropolis Warning: Be aware that titleformat subtitle=allcaps can lead to problems on input line 104.
+
+
+Package beamerthememetropolis Warning: Be aware that titleformat section=allcaps can lead to problems on input line 104.
+
+
+Package beamerthememetropolis Warning: Be aware that titleformat frame=allcaps can lead to problems on input line 104.
+
+
+Package beamerthememetropolis Warning: Be aware that titleformat plain=allcaps can lead to problems on input line 104.
+
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\metropolis@titleformat' on input line 46.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (/media/Dati/Git/slides-ehrenfest-model/slides.aux)
+(/media/Dati/Git/slides-ehrenfest-model/slides.aux)
 \openout1 = `slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1166,14 +988,14 @@ LaTeX Font Info:    ... okay on input line 59.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(17.07164pt, 330.05208pt, 17.07164pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=330.05208pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-55.19835pt
-* \evensidemargin=-55.19835pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1193,8 +1015,8 @@ LaTeX Font Info:    ... okay on input line 59.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box91
-Package hyperref Info: Link coloring OFF on input line 59.
+\AtBeginShipoutBox=\box109
+Package hyperref Info: Link coloring OFF on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1202,61 +1024,58 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count514
+\c@section@level=\count373
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
-\@outlinefile=\write6
-\openout6 = `slides.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
+ (/media/Dati/Git/slides-ehrenfest-model/slides.out) (/media/Dati/Git/slides-ehrenfest-model/slides.out)
+\@outlinefile=\write5
+\openout5 = `slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 59.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 59.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 46.
+\symnumbers=\mathgroup7
+\sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/FiraSansMedium(0)/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 59.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 46.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/FiraSans(0)/b/n on input line 59.
+(Font)                  OT1/cmr/bx/n --> TU/FiraSansLight(0)/b/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/FiraSans(0)/b/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 59.
+(Font)                  OT1/cmr/bx/n --> TU/FiraSansLight(0)/b/n on input line 46.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/FiraSans(0)/m/n on input line 59.
+(Font)                  OT1/cmss/m/n --> TU/FiraSansLight(0)/m/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/FiraSans(0)/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 59.
+(Font)                  OT1/cmss/bx/n --> TU/FiraSansLight(0)/m/n on input line 46.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/FiraSans(0)/m/it on input line 59.
+(Font)                  OT1/cmr/m/it --> TU/FiraSansLight(0)/m/it on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/FiraSans(0)/m/it on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 59.
+(Font)                  OT1/cmr/bx/it --> TU/FiraSansLight(0)/m/it on input line 46.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/DejaVuSansMono(0)/m/n on input line 59.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/DejaVuSansMono(0)/m/n on input line 59.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 46.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/FiraSans(0)/m/n --> TU/FiraSans(0)/b/n on input line 59.
+(Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/b/n on input line 46.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/FiraSans(0)/m/it --> TU/FiraSans(0)/b/it on input line 59.
+(Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/b/it on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/FiraSansMedium(0)/b/n on input line 59.
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/FiraSans(0)/b/n --> TU/FiraSans(0)/b/n on input line 59.
+(Font)                  TU/FiraSansLight(0)/b/n --> TU/FiraSansLight(0)/b/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/FiraSans(0)/m/n --> TU/FiraSans(0)/b/n on input line 59.
+(Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/b/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/FiraSans(0)/m/it --> TU/FiraSans(0)/b/it on input line 59.
+(Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/b/it on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/DejaVuSansMono(0)/m/n --> TU/DejaVuSansMono(0)/b/n on input line 59.
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
@@ -1268,222 +1087,120 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-
-Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
-
-\symlegacymaths=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 59.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 59.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 59.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 59.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 59.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 59.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 59.
-LaTeX Font Info:    Redeclaring math accent \check on input line 59.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 59.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 59.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 59.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 59.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 59.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/FiraSansMedium(0)/m/n on input line 59.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 59.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/FiraSansMedium(0)/m/n on input line 59.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/FiraSansMedium(0)/m/n --> TU/FiraSansMedium(0)/m/n on input line 59.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 59.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/FiraSans(0)/m/it --> TU/FiraSansMedium(0)/m/it on input line 59.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/FiraSans(0)/b/n --> TU/FiraSansMedium(0)/b/n on input line 59.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  TU/FiraSans(0)/m/n --> TU/FiraSans(0)/m/n on input line 59.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/DejaVuSansMono(0)/m/n --> TU/DejaVuSansMono(0)/m/n on input line 59.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/FiraSansMedium(0)/m/n --> TU/FiraSansMedium(0)/b/n on input line 59.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/FiraSans(0)/b/it --> TU/FiraSansMedium(0)/b/it on input line 59.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/FiraSans(0)/b/n --> TU/FiraSans(0)/b/n on input line 59.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/DejaVuSansMono(0)/b/n --> TU/DejaVuSansMono(0)/b/n on input line 59.
-\c@lstlisting=\count515
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
- (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `slides.bcf'.
+LaTeX Info: Redefining \celsius on input line 46.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 46.
 
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'slides.bbl' not found.
 
-No file slides.bbl.
-Package biblatex Info: Reference section=0 on input line 59.
-Package biblatex Info: Reference segment=0 on input line 59.
-No file slides.nav.
-\nord@tmpbox=\box92
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 46.
+Package gensymb Info: Using \Omega for \ohm on input line 46.
+
+Package gensymb Warning: Not defining \micro.
+
+(/media/Dati/Git/slides-ehrenfest-model/slides.nav)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-/media/Dati/Git/slides-ehrenfest-model/slides.tex:63: Package xcolor Error: Undefined color `NordBrightestWhite'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 \end{frame}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/media/Dati/Git/slides-ehrenfest-model/slides.tex:63: Package xcolor Error: Undefined color `NordBrightestWhite'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 \end{frame}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/yhmath/OMXyhex.fd
+File: OMXyhex.fd 
+File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
+)
+Overfull \vbox (15.63992pt too high) detected at line 47
+ []
 
 [1
 
-]
-No file slides.toc.
-
-/media/Dati/Git/slides-ehrenfest-model/slides.tex:67: Package xcolor Error: Undefined color `NordBrightestWhite'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 \end{frame}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/media/Dati/Git/slides-ehrenfest-model/slides.tex:67: Package xcolor Error: Undefined color `NordBrightestWhite'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 \end{frame}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[2
+] [2
 
 ]
 
-/media/Dati/Git/slides-ehrenfest-model/slides.tex:71: Package xcolor Error: Undefined color `NordBrightestWhite'.
+Package fontspec Info: Font family 'FiraSansLight(1)' created for font 'Fira
+(fontspec)             Sans Light' with options
+(fontspec)             [Ligatures=TeX,ItalicFont={Fira Sans Light
+(fontspec)             Italic},BoldFont={Fira Sans},BoldItalicFont={Fira Sans
+(fontspec)             Italic},Numbers={Monospaced}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Fira Sans
+(fontspec)             Light/OT:script=latn;language=dflt;+tnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Fira Sans
+(fontspec)             Light/OT:script=latn;language=dflt;+tnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Fira
+(fontspec)             Sans/OT:script=latn;language=dflt;+tnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Fira
+(fontspec)             Sans/OT:script=latn;language=dflt;+tnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Fira Sans Light
+(fontspec)             Italic/OT:script=latn;language=dflt;+tnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Fira Sans Light
+(fontspec)             Italic/OT:script=latn;language=dflt;+tnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Fira Sans
+(fontspec)             Italic/OT:script=latn;language=dflt;+tnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Fira Sans
+(fontspec)             Italic/OT:script=latn;language=dflt;+tnum;+smcp;mapping=tex-text;"
 
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 \end{frame}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ [3
 
+] [4
 
-/media/Dati/Git/slides-ehrenfest-model/slides.tex:71: Package xcolor Error: Undefined color `NordBrightestWhite'.
+] [5
 
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 \end{frame}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+] (/media/Dati/Git/slides-ehrenfest-model/mechanism.tex (/media/Dati/Git/slides-ehrenfest-model/pictures/ehrenfest_1.tex) [6
 
-\nord@tmpbox=\box93
-[3
+] (/media/Dati/Git/slides-ehrenfest-model/pictures/picked_ball.tex) [7
+
+] (/media/Dati/Git/slides-ehrenfest-model/pictures/extracted_ball.tex) [8
+
+] (/media/Dati/Git/slides-ehrenfest-model/pictures/box_selected.tex) [9
+
+] (/media/Dati/Git/slides-ehrenfest-model/pictures/put.tex) [10
+
+]) (/media/Dati/Git/slides-ehrenfest-model/pictures/all_A.tex) (/media/Dati/Git/slides-ehrenfest-model/pictures/recurrence.tex) [11
+
+] [12
+
+] (/media/Dati/Git/slides-ehrenfest-model/pictures/statespace.tex) [13
+
+] [14
 
 ]
-\tf@nav=\write7
-\openout7 = `slides.nav'.
+\tf@nav=\write6
+\openout6 = `slides.nav'.
 
-\tf@toc=\write8
-\openout8 = `slides.toc'.
+\tf@toc=\write7
+\openout7 = `slides.toc'.
 
-\tf@snm=\write9
-\openout9 = `slides.snm'.
+\tf@snm=\write8
+\openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (/media/Dati/Git/slides-ehrenfest-model/slides.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
-
-
-Package rerunfilecheck Warning: File `slides.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `slides.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                slides
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'slides.run.xml'.
-\openout1 = `slides.run.xml'.
-
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package rerunfilecheck Info: File `slides.out' has not changed.
+(rerunfilecheck)             Checksum: 999820B05AFCCEE8DD2DEFC9E982BFD9;174.
  ) 
 Here is how much of TeX's memory you used:
- 40627 strings out of 481720
- 834401 string characters out of 5934858
- 1531534 words of memory out of 5000000
- 56906 multiletter control sequences out of 15000+600000
- 537762 words of font info for 95 fonts, out of 8000000 for 9000
+ 34209 strings out of 481720
+ 736859 string characters out of 5934858
+ 1072997 words of memory out of 5000000
+ 50457 multiletter control sequences out of 15000+600000
+ 538790 words of font info for 77 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 58i,15n,106p,850b,3761s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,14n,118p,1946b,832s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /media/Dati/Git/slides-ehrenfest-model/slides.pdf (3 pages).
+Output written on /media/Dati/Git/slides-ehrenfest-model/slides.pdf (14 pages).
