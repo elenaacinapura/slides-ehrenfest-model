@@ -46,15 +46,30 @@
 
 \begin{document}
   \maketitle
+
+  \begin{frame}{Contents}
+    \MakeUppercase{\textbf{The Ehrenfest urn model}}
+
+    \bigskip
+    \MakeUppercase{\textbf{Analysis via Markov chains}}
+      \begin{itemize}
+        \item Limiting distribution
+        \item Mean recurrence time
+      \end{itemize}
+      \bigskip
+    \MakeUppercase{\textbf{Simulation}}
+  \end{frame}
+
   \section{Motivation}
   \begin{frame}{Irreversibility vs Recurrence}
-    Some thermodynamic processes, such as 
-
+    \begin{center}
+      Thermodynamic processes such as
+    \end{center}
     \begin{table}
         \begin{center}
         \begin{tabular}{l c}
             \tabitem diffusions & \\
-            \tabitem heat transfers & $\rightarrow \quad $ \alert{irreversible}\\
+            \tabitem heat transfers & $\rightarrow \quad $ \alert{\MakeUppercase{irreversible}}\\
             \tabitem phase transitions & 
         \end{tabular}
         \end{center}
@@ -65,44 +80,19 @@
     \end{center}
     
     \begin{center}
-    Newtonian mechanics $\quad \rightarrow \quad$ \alert{time-reversible}
+    Newtonian mechanics $\quad \rightarrow \quad$ \alert{\MakeUppercase{time-reversible}}
     \end{center}
   \end{frame}
 
-  \begin{frame}{Contents}
-    \textbf{The Ehrenfest urn model}
-
-    \medskip
-    \textbf{Analysis via Markov chains}
-      \begin{itemize}
-        \item limiting distribution
-        \item mean recurrence time
-      \end{itemize}
-      \medskip
-    \textbf{Simulation}
+  \begin{frame}[standout]
+    \textsc{A statistical approach}
   \end{frame}
+  
 
   \section{The Ehrenfest Urn Model}
-  \input{mechanism}
+  \input{model}
 
-  \begin{frame}{The Ehrenfest Urn Model}
-    \begin{center}
-      \textbf{Meaningful questions about equilibrium}
-    \end{center}
-    \begin{itemize}
-      \item probability of having all the particles in box A?
-    \end{itemize}
-    \begin{figure}
-      \input{pictures/all_A}
-    \end{figure}
-    \begin{itemize}
-      \item time needed for recurrence?
-    \end{itemize}
-    \begin{figure}
-      \input{pictures/recurrence}
-    \end{figure}
-  \end{frame}
-
+  
   \section{Markov chain analysis}
   \begin{frame}{Markov chains - definitions}
     \begin{center}
@@ -131,20 +121,17 @@
 
   \begin{frame}{Markov chains --- definitions}
     \begin{center}
-      \Large \textbf{Distributions}
-    \end{center}
-    \begin{center}
-      $X = $ state of the system $=$ random variable
+      \Large \textbf{Representing probabilities}
     \end{center}
 
     \renewcommand{\tabularxcolumn}{m}
     \begin{table}
       \begin{tabularx}{0.9\textwidth}{c c >{\raggedright}X}
-        Distribution & $\rightarrow$ & probabilities for the system to be in the various possible states
+        \alert{Distribution} & $\rightarrow$ & probabilities for the system to be in the various possible states \tabularnewline
+        & & \tabularnewline
+        \alert{Stochastic matrix} & $\rightarrow$ & probabilities of the possible transitions
       \end{tabularx}
 
-      \bigskip
-      Analogy with the probability distribution in statistics
     \end{table}
     
   \end{frame}
@@ -153,24 +140,75 @@
     \Large In the Ehrenfest model:
     \normalsize
     \begin{itemize}
-      \item state = number of particles in box A
-      \item possible values: $0, \dots, N$
-      \item example
+      \item<1-> state $X = $ number of particles in box A
+      \item<2-> possible values: $0, \dots, N$
+      \item<3-> example
     \end{itemize}
-
+    
     \begin{figure}[r]
-      \input{pictures/example_state}
+      \only<3>{\input{pictures/example_state}}
     \end{figure}
   \end{frame}
 
   \begin{frame}[standout]
-    \textsc{A sequence of states of the Ehrenfest model is a Markov chain}
+    \textsc{A sequence of states of the Ehrenfest model is a Markov chain}\\
+    \vspace{30pt}
+    \textsc{The \enquote{Ehrenfest chain}}
   \end{frame}
 
 
   \section{Asymptotic behaviour}
   \begin{frame}{LIMITING DISTRIBUTION}
+    \centering
+    Evolution for $t$ time steps\\\medskip
+    $\downarrow$\\\medskip
+    Does the distribution converge as $t \rightarrow \infty$?\\\medskip
+    $\downarrow$\\\medskip
+    \alert{Limiting distribution}\\\medskip
+    $\downarrow$\\\medskip
+    Concept of \alert{equilibrium}
+  \end{frame}
+
+  \begin{frame}{STATIONARY DISTRIBUTION}
+    \centering
+    \Large \textbf{Stationary distribution}
+    \normalsize
+    \begin{itemize}
+      \item distribution that \alert{remains the same} after one timestep
+      \item \alert{eigenvector} of the stochastic matrix with unitary eigenvalue
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}[standout]
+    \textsc{The limiting distribution is a stationary distribution}
+  \end{frame}
+
+  \begin{frame}
+    \Large
+    \centering
+    \dots\ \textsc{however, a stationary distribution is not always the limiting distribution}
     
+    \vspace{40pt}
+
+    \normalsize
+    The \alert{Perron-Frobenius theorem} gives the sufficient conditions
+  \end{frame}
+
+  \begin{frame}{Asymptotic limit of the Ehrenfest chain}
+    \Large 
+    \centering
+    \vspace{30pt}
+    Limiting distribution of the Ehrenfest chain\\
+    \vspace{20pt}
+    \MakeUppercase{\alert{Binomial distribution}}\\
+  \end{frame}
+  
+  \begin{frame}{Asymptotic limit of the Ehrenfest chain}
+    \vspace{30pt}
+    Example with $N = 10$
+    \begin{figure}
+      \includegraphics[scale = 0.5]{pictures/binomial.pdf}
+    \end{figure}
   \end{frame}
 
 \end{document}
