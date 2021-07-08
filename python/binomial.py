@@ -11,6 +11,8 @@ font_list = font_manager.createFontList(font_files)
 font_manager.fontManager.ttflist.extend(font_list)
 
 rcParams['font.family'] = 'Fira Sans'
+rcParams['font.weight'] = 'light'
+plt.rc("axes", labelweight="light")
 rcParams['font.size'] = 20
 N = 10
 p = 0.5
@@ -22,7 +24,8 @@ binss = [i-0.5 for i in range(N+2)]
 plt.hist(x, bins=binss, weights=binom.pmf(x, N, p), color='firebrick', alpha=0.8, ls='solid', ec='k')
 plt.xticks([0, 2, 4, 6, 8, 10])
 plt.xlabel('State')
-plt.ylabel('Probability')
+plt.ylabel('Probability', labelpad=10)
 plt.tight_layout()
+# plt.show()
 plt.savefig('../pictures/binomial.pdf', format='pdf')
 # %%
