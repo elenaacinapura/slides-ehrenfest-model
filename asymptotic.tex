@@ -1,0 +1,109 @@
+\section{Asymptotic behaviour\\\small{The limiting distribution}}
+  \begin{frame}{LIMITING DISTRIBUTION}
+    \centering
+    Evolution for $t$ time steps\\\medskip
+    $\downarrow$\\\medskip
+    \large \textbf{Does the distribution converge as $\mathbf{t \rightarrow \infty}$?}\\\medskip \small If it does, then the resulting distribution is called \medskip
+    \\\medskip
+    \Large
+    \MakeUppercase{\alert{Limiting distribution}}\\\medskip
+    $\downarrow$\\\medskip
+    \normalsize
+    Concept of \alert{equilibrium}
+  \end{frame}
+
+  \begin{frame}
+    \centering\Large
+    \textsc{How to find the limiting distribution?}\\
+    \vspace{30pt}
+    \only<2>{\alert{Theory of Markov chains}}
+  \end{frame}
+
+  \begin{frame}{LIMITING DISTRIBUTION}
+    \centering
+      \vspace{30pt}
+      \textsc{under some conditions}
+
+      \vspace{10pt}
+      \Large
+      \textsc{\alert{the limiting distribution is the result of an eigenvalue problem}}
+  \end{frame}
+\begin{frame}{Asymptotic limit of the Ehrenfest chain}
+    \Large 
+    \centering
+    \vspace{20pt}
+    The limiting distribution of the Ehrenfest chain:\\
+    \vspace{30pt}
+    \textsc{\alert{b\label{simulation}
+  \section{Simulation}
+inomial distribution}}\\
+    \vspace{30pt}
+    \normalsize
+    with trial parameter \alert{$N$} and success probability \alert{$1/2$}
+  \end{frame}
+  
+  \begin{frame}{Asymptotic limit of the Ehrenfest chain}
+    \vspace{30pt}
+    Example with $N = 10$
+    \begin{figure}
+      \includegraphics[scale = 0.5]{pictures/binomial.pdf}
+    \end{figure}
+  \end{frame}
+
+  \section{Asymptotic behaviour\\\small{Mean Recurrence Time}}
+  \begin{frame}{Mean Recurrence Time}
+    \begin{center}
+      \Large \textbf{Mean recurrence time}
+    \end{center}
+    \alert<3>{At equilibrium}
+
+    Given a certain state, e.\,g.
+
+    \begin{figure}
+      \input{pictures/3.tex}
+    \end{figure}
+
+    \only<2->{How much time needs the system \alert<3>{on average} to return to that state?}
+
+    \begin{figure}
+      \only<2->{\input{pictures/3T.tex}}
+    \end{figure}
+    
+  \end{frame}
+
+  \begin{frame}{Mean Recurrence Time}
+    \centering
+    The answer is given from the theory of Markov chains\\
+    \vspace{20pt}
+    \Large
+    \alert{\textsc{mean recurrence time}}\\ \alert{$=$} \\
+    \large
+    \alert{\textsc{inverse of the probability in the limiting distribution}}
+  \end{frame}
+
+  \begin{frame}{Mean Recurrence Time}
+    Example
+    \begin{itemize}
+      \item state $X = N$, i.\,e. all the particles in box A
+    \end{itemize}
+
+    \begin{figure}
+      \input{pictures/all.tex}
+    \end{figure}
+
+    \begin{itemize}
+      \item mean recurrence time: \alert{$2^N$}
+      \item for a mole of particles ($N = N_A$), this time is greater than the age of the universe!
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{irreversibility}
+    \begin{center}
+      \Large \textbf{Explanation of irreversibility}
+    \end{center}
+    \begin{itemize}
+      \item \alert{in principle}, all configurations are reversibile
+      \item \alert{in fact}, some configurations are so unlikely that we never see them, statistically
+      \item Markov theory allows to quantify reversibility
+    \end{itemize}
+  \end{frame}
