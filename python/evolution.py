@@ -41,5 +41,5 @@ for j in range(4):
     # plt.legend(bbox_to_anchor=(0.83, -0.18))
     plt.tight_layout()
     # plt.show()
-    plt.savefig('../pictures/evolution_{}.pdf'.format(j), format='pdf')
+    plt.savefig('../pictures/evolution_{}.pdf'.format(j), format='pdf', transparent=True)
 

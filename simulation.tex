@@ -63,6 +63,45 @@
         \end{figure}
 \end{frame}
 
+\begin{frame}{Simulation}
+    \Large
+    Estimate of the mean recurrence time
+    \normalsize
+    \begin{itemize}
+      \item good estimate for $T \gg 2^N$
+      \item fixed number of timesteps $T = 10^7$
+      \item plots for $N = 10$, $N = 15$, $N = 20$, $N = 30$
+    \end{itemize}
+\end{frame}
+
 \begin{frame}
-    
+  \begin{figure}
+      \begin{subfigure}{.49\textwidth}
+          \centering
+          \includegraphics[width=\linewidth]{pictures/recurrence_0.pdf}
+          % \caption{$t = 0$}
+        \end{subfigure}
+        \begin{subfigure}{.49\textwidth}
+          \centering
+          \includegraphics[width=\linewidth]{pictures/recurrence_1.pdf}
+          % \caption{$t = 100$}
+        \end{subfigure}\\
+        \begin{subfigure}{0.49\textwidth}
+          \centering
+          \includegraphics[width=\linewidth]{pictures/recurrence_2.pdf}
+          % \caption{$t = 1000$}
+        \end{subfigure}%
+        \begin{subfigure}{0.49\textwidth}
+          \centering
+          \includegraphics[width=\linewidth]{pictures/recurrence_3.pdf}
+          % \caption{At convergence}
+      \end{subfigure}\\
+      \begin{center}
+        \begin{subfigure}{0.26\textwidth}
+          \centering
+          \includegraphics[width=\linewidth]{pictures/legend_2.png}
+          % \caption{At convergence}
+        \end{subfigure}\\
+      \end{center}
+      \end{figure}
 \end{frame}
