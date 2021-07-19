@@ -6,30 +6,30 @@
         \Large \textbf{A computational approach}
     \end{center}
     \centering
-    \begin{enumerate}
-        \item<1-> \alert{Simulate} the evolution of the system by:
-        \begin{itemize}
-            \item reproducing the steps of the Ehrenfest model
-            \item using random number generation
-        \end{itemize}
-        \item<2-> \alert{Estimate}:
-        \begin{itemize}
-            \item the limiting distribution with the sample visit frequency 
-            \item the mean recurrence time with the sample mean recurrence time
-        \end{itemize}
-    \end{enumerate}
+    \begin{itemize}
+        \item<1-> \alert{Simulate} the evolution of the system by reproducing the steps of the Ehrenfest model
+        \item <2-> Run the simulation for a \alert{large number of time steps}
+        \item<3-> \alert{Estimate} the asymptotic quantities by sampling them
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{Simulation}
-    \Large Example
-    \normalsize
-    \begin{itemize}
-        \item $N = 100$
-        \item Initial condition: $X_0 = N$
-        \item Plots for the sample visit frequencies $t = 0$, $t = 100$, $t = 1000$ and the convergence
-    \end{itemize}
-    
+  \Large
+  \centering
+  \textsc{Results: Limiting Distribution}
+  
 \end{frame}
+
+% \begin{frame}{Simulation}
+%     \Large Example: limiting distribution
+%     \normalsize
+%     \begin{itemize}
+%         \item $N = 100$
+%         \item Initial condition: $X_0 = N$
+%         \item Plots for the sample visit frequencies $t = 0$, $t = 100$, $t = 1000$ and the convergence
+%     \end{itemize}
+    
+% \end{frame}
 
 \begin{frame}
     \begin{figure}
@@ -63,15 +63,20 @@
         \end{figure}
 \end{frame}
 
+% \begin{frame}{Simulation}
+%     \Large
+%     Example: mean recurrence time
+%     \normalsize
+%     \begin{itemize}
+%       \item use a fixed number of time steps $T = 10^7$
+%       \item good estimates only for some value of $N$
+%       \item plots for $N = 10$, $N = 15$, $N = 20$, $N = 30$
+%     \end{itemize}
+% \end{frame}
+
 \begin{frame}{Simulation}
-    \Large
-    Estimate of the mean recurrence time
-    \normalsize
-    \begin{itemize}
-      \item good estimate for $T \gg 2^N$
-      \item fixed number of timesteps $T = 10^7$
-      \item plots for $N = 10$, $N = 15$, $N = 20$, $N = 30$
-    \end{itemize}
+  \centering \Large
+  \textsc{Results: Mean Recurrence Time}
 \end{frame}
 
 \begin{frame}
@@ -99,7 +104,7 @@
       \begin{center}
         \begin{subfigure}{0.26\textwidth}
           \centering
-          \includegraphics[width=\linewidth]{pictures/legend_2.png}
+          \includegraphics[width=0.9\linewidth]{pictures/legend_2.png}
           % \caption{At convergence}
         \end{subfigure}\\
       \end{center}

@@ -1,0 +1,95 @@
+- good morning
+- i am Elena acinapura
+- i am going to present my bachelor thesis, which is about
+
+- give a brief overview of the topics cover
+- first: illustrate what e.m. is and what it is used for
+- then: present analysis bm of MC
+- focus on two concepts
+- lastly, present simulation, complementary way, compare the results
+
+- providing background and motivation
+- major problem in thermodynamics:
+- some th. processes are irreversibile, i.e
+- this is in conflict with 
+- evolutions obeying to n.m are predicted time-reversible
+
+- as I will show -> in order to solve this conflict, we must use a statistical approach
+
+- one of the many statistical approaches is given by the e.u.m.
+
+- the eum is a model for the diffusion of a gas
+- describe the diffusion as a stochastic process
+
+- a gas consisting of N particles
+- distibuted in two boxed
+- time is discretized
+
+- the rules state that at each time step
+
+- in order to tackle the problem of irreversibility, we wight want to ask ourselves some questions, such as
+- what is the probability of having all the part in box A
+- how much time should we wait, on average, to see a certain configuration recurr
+
+- most suited theory to answer to these questions: theory of markov chains
+
+- markov chains are mathematical theory for stochastic processes
+- which means: they apply to systems whose state is a random variable and changes randomly in time
+- in general: we will have a system whose state can take values in state space; a sequence of states is a random processes
+- not every stochastic process represents a markov chain, but only those processes satisfying the markov property, or also memorylessness
+- this property consists in the fact that, for each time step, the transition from the current state to the next one only depends on the current state, and not on the previous ones. This means that the system has no memory of the past events. 
+
+- two are the main mathematical tools of markov chains: distributions and the stocastic matrix. 
+
+- let's now see how to apply these concepts to the e.m. 
+- we can identify the state of the system by giving the number of particles in box A
+- if so, the state of the system can take values from 0 up to N
+
+- it can be proven that a sequence of states in the e.m. satisfies the markov property, and therefore constitutes a a markov chain
+
+- if we want to tackle the problem of irreversibility, we have to study the asymptotic behaviour of the e.c., which involves the properties of the system at equillibrium, after a large number of time steps... so we are basically asking ourselves how the system will evolve, after a long period of time 
+- of course the theory of markov chains provides some instruments for doing that
+- i will focus in particular on two quantities, the limiting distribution and the mean recurrence time
+
+- let me start with the limiting distribution
+- consider a general evolution for a certain number of time steps
+- and now take the limiti as this number of time steps becomes very large, tending to infinity
+- we ask: does the probability ditribution of the states converge? 
+- if it does, we call the resulting distribution limiting dis.
+- and it is very important, because it will tell which states are the most probable ones at equilibrium
+
+- but how can we calculate the l.d.?
+- the theory of markov chains shows that it can be calculated as the result of an eigenvalue problem
+- if we solve this problem for the ehrenfest chain, it turns out that its limiting distribution is a binomial distribution
+- so, for instance, for 10 particles it is a bell-shaped curve like this
+- notice that the most probable states are those close to N/2, so with half of the particles in each box, while the states with all the particles in the same box are very unlikely at equilibrium
+
+- that was the limiting distribution, let me now introduce the mean recurrence time
+- consider, as before, the condition of equilibrium, after a large number of time steps
+- suppose that the system is found in a certain state, e.g
+- we ask ourselves: how many timesteps should we wait, on average, before the system returns to that state? 
+- this quantity is called the mean recurrence time of state X=3
+
+- the theory of markov chains can be used to prove that the mean recurrence time of a given state is equal to inverse of the probability of that state in the limiting distribution
+- if we go back to the example with 10 particle, the mean recurrence times of the various states will look like this
+- notice that the most likely states have a very small recurrence time, while the most unlikely ones have a very large recurrence time
+
+- we can finally explain what it means that the diffusion of a gas is irreversibile: in principle, all the configurations are possible and reversible at any time, but in fact some configurations are so unlikely, that we never see them statistically at equilibrium. For instance, when we have a gas spreading in a volume, the condition that we see is the one with the gas equally spead in the whole space available, and not all in one half of the volume.
+
+- as the last argument, I would like to present a computational approach to the eh. prob.
+- the idea behind this approach is to simulate the mechanism of the eh.mod. by reproducing its mechanism, hence reconstructing an evolution
+- run the simulation for a large number of time steps
+- and then estimate the asymptotic quantities of the system by sampling the 
+
+- these figures refer to a simulation of a system with 100 particles. 
+- They are taken at some intermediate time instants of the simulation and compare the theoretical ld with the sample visit frequency. 
+- As we can see, the s.v.f. evolves converging to the l.d after a large number of time steps
+- and so we see that the result of the simulation is in good agreement with the predictions
+
+- for the mrt I adopted the following approach: I fixed the total number of time steps of the simulation, and calculated the mean recurrence time withing that time window, for different values of N
+- the figures compare...
+-as we can see, the two quantities are in good agreement for a small number of particles, while for a larger one the chosen durantion of the simulation was not enough
+- this result, however, confirms that some states need so much time to be reached, that they can be considered irreversible by all means
+
+- to conclude, on one hand the theory of mc has been very useful to use a statistical approach to treat the diffusion of a gas, and it is a different approach to the ones usually presented in statistical mech
+- on the other hand, the simulation has strengthen the predictions of the mc and has also gain more insight into the evolution of the system and the time needed for convergence.

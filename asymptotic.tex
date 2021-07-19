@@ -1,4 +1,23 @@
-\section{Asymptotic behaviour\\\small{The limiting distribution}}
+\section{Asymptotic behaviour}
+% \begin{frame}{The Ehrenfest Urn Model}
+%   \begin{center}
+%     \textbf{Meaningful questions about equilibrium}
+%   \end{center}
+%   \begin{itemize}
+%     \item probability of having all the particles in box A?
+%   \end{itemize}
+%   \begin{figure}
+%     \input{pictures/all_A}
+%   \end{figure}
+%   \begin{itemize}
+%     \item time needed for recurrence?
+%   \end{itemize}
+%   \begin{figure}
+%     \input{pictures/recurrence}
+%   \end{figure}
+% \end{frame}
+
+\section{\small{The limiting distribution}}
   \begin{frame}{LIMITING DISTRIBUTION}
     \centering
     Evolution for $t$ time steps\\\medskip
@@ -14,9 +33,7 @@
 
   \begin{frame}
     \centering\Large
-    \textsc{How to find the limiting distribution?}\\
-    \vspace{30pt}
-    \only<2>{\alert{Theory of Markov chains}}
+    \textsc{How to find the limiting distribution?}
   \end{frame}
 
   \begin{frame}{LIMITING DISTRIBUTION}
@@ -48,7 +65,7 @@
     \end{figure}
   \end{frame}
 
-  \section{Asymptotic behaviour\\\small{Mean Recurrence Time}}
+  \section{\small{Mean Recurrence Time}}
   \begin{frame}{Mean Recurrence Time}
     \begin{center}
       \Large \textbf{Mean recurrence time}
@@ -61,7 +78,7 @@
       \input{pictures/3.tex}
     \end{figure}
 
-    \only<2->{How much time needs the system \alert<3>{on average} to return to that state?}
+    \only<2->{How much time is needed \alert<3>{on average} before the system returns to that state?}
 
     \begin{figure}
       \only<2->{\input{pictures/3T.tex}}
@@ -71,10 +88,13 @@
 
   \begin{frame}{Mean Recurrence Time}
     \centering
-    The answer is given from the theory of Markov chains\\
+    The theory of Markov chains proves that \\
     \vspace{20pt}
     \Large
-    \alert{\textsc{mean recurrence time}}\\ \alert{$=$} \\
+    \alert{\textsc{mean recurrence time}} \\
+    \vspace{5pt}
+    \alert{$\downarrow$} \\
+    \vspace{10pt}
     \large
     \alert{\textsc{inverse of the probability in the limiting distribution}}
   \end{frame}
@@ -87,21 +107,21 @@
     \end{figure}
   \end{frame}
 
-  \begin{frame}{Mean Recurrence Time}
-    Example
-    \begin{itemize}
-      \item state $X = N$, i.\,e. all the particles in box A
-    \end{itemize}
+  % \begin{frame}{Mean Recurrence Time}
+  %   Example
+  %   \begin{itemize}
+  %     \item state $X = N$, i.\,e. all the particles in box A
+  %   \end{itemize}
 
-    \begin{figure}
-      \input{pictures/all.tex}
-    \end{figure}
+  %   \begin{figure}
+  %     \input{pictures/all.tex}
+  %   \end{figure}
 
-    \begin{itemize}
-      \item mean recurrence time: \alert{$2^N$}
-      \item for a mole of particles ($N = N_A$), this time is greater than the age of the universe!
-    \end{itemize}
-  \end{frame}
+  %   \begin{itemize}
+  %     \item mean recurrence time: \alert{$2^N$}
+  %     \item for a mole of particles ($N = N_A$), this time is greater than the age of the universe!
+  %   \end{itemize}
+  % \end{frame}
 
   \begin{frame}{irreversibility}
     \begin{center}

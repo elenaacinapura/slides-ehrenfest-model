@@ -26,6 +26,9 @@ limiting_dist = data['val']
 
 N = len(i)
 b = [i for i in range(N)]
+text = [r'$t = 0$', r'$t = 100$', r'$t = 1000$', r'$t\rightarrow \infty$']
+x = 0.1
+y = [0.9, 0.085, 0.085, 0.068]
 
 # Sampling distribution
 visit_freq = []
@@ -38,7 +41,7 @@ for j in range(4):
     plt.hist(i[:N], bins=b, weights=visit_freq[j], label='Sample visit frequency',alpha=0.5, ls='dashed', density=1, color='r', ec='k')
     plt.xlabel('State')
     plt.ylabel('Probability')
-    # plt.legend(bbox_to_anchor=(0.83, -0.18))
+    plt.text(x, y[j], text[j], size=20)
     plt.tight_layout()
     # plt.show()
     plt.savefig('../pictures/evolution_{}.pdf'.format(j), format='pdf', transparent=True)

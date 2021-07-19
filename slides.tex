@@ -11,6 +11,7 @@
 \usepackage{tabularx,pbox}
 \usepackage{subcaption}
 \usepackage{float}
+\usepackage{calc}
 % tikz packages
 \usetikzlibrary{positioning}
 \usepackage{physics}
@@ -98,7 +99,7 @@
   \section{Markov chain analysis}
   \begin{frame}{Markov chains - definitions}
     \begin{center}
-      \Large{\textbf{Discrete Markov chains}}
+      \Large{\textbf{Markov chains}}
     \end{center}
     A mathematical theory for stochastic processes
 
@@ -131,7 +132,7 @@
       \begin{tabularx}{0.9\textwidth}{c c >{\raggedright}X}
         \alert{Distribution} & $\rightarrow$ & probabilities for the system to be in the various possible states \tabularnewline
         & & \tabularnewline
-        \alert{Stochastic matrix} & $\rightarrow$ & probabilities of the possible transitions
+        
       \end{tabularx}
 
     \end{table}
@@ -160,35 +161,6 @@
 
 
   \input{asymptotic.tex}
-
-
-  %%%%%%%%%%%%%%%%
-  % TOO THEORETICAL SLIDES
-  %%%%%%%%%%%%%%%%
-  % \begin{frame}{STATIONARY DISTRIBUTION}
-  %   \centering
-  %   \Large \textbf{Stationary distribution}
-  %   \normalsize
-  %   \begin{itemize}
-  %     \item distribution that \alert{remains the same} after one timestep
-  %     \item \alert{eigenvector} of the stochastic matrix with unitary eigenvalue
-  %   \end{itemize}
-  % \end{frame}
-
-  % \begin{frame}[standout]
-  %   \textsc{The limiting distribution is a stationary distribution}
-  % \end{frame}
-
-  % \begin{frame}
-  %   \Large
-  %   \centering
-  %   \dots\ \textsc{however, a stationary distribution is not always the limiting distribution}
-    
-  %   \vspace{40pt}
-
-  %   \normalsize
-  %   The \alert{Perron-Frobenius theorem} gives the sufficient conditions
-  % \end{frame}
 
   
 \input{simulation.tex}

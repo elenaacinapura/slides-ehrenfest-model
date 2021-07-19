@@ -20,6 +20,10 @@ rcParams['font.size'] = 24
 theo = []
 sample = []
 
+text = [r'$N = 10$', r'$N = 15$', r'$N = 20$', r'$N = 30$']
+x = [4, 6, 8, 12]
+y = [7e2, 2e4, 5e5, 4e8]
+
 for j in range(4):
     data = pd.read_csv('recurrence_time_th_{}.csv'.format(j), delimiter='\t')
     i = data['i']
@@ -35,7 +39,7 @@ for j in range(4):
     plt.xlabel('State')
     plt.ylabel('Time steps')
     plt.yscale('log')
-    # plt.legend(bbox_to_anchor=(0.7, -0.14))
+    plt.text(x[j], y[j], text[j], size=20)
     plt.tight_layout()
     # plt.show()
     plt.savefig('../pictures/recurrence_{}.pdf'.format(j), format='pdf', transparent=True)
